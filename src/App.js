@@ -2,7 +2,8 @@ import './App.css';
 import ReactPlayer from 'react-player'
 import { FaFacebookF, FaTwitter, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa"
 
-import trailer from './assets/videos/jc-gangster.mp4'
+import trailer1 from './assets/videos/jc-gangster.mp4'
+import trailer from './assets/videos/lcc-main-teaser.mp4'
 
 import LccLogo from './assets/images/lcc-logo-1.png'
 
@@ -32,10 +33,10 @@ function App() {
 
           {/* <a target="_blank" href="https://www.instagram.com/ighosproductions/" >
             <FaFacebookF />
-          </a>
-          <a target="_blank" href="https://www.instagram.com/ighosproductions/" >
-            <FaTwitter />
           </a> */}
+          <a target="_blank" href="https://twitter.com/IghosP" >
+            <FaTwitter />
+          </a>
           <a target="_blank" href="https://www.instagram.com/ighosproductions/" >
             <FaInstagram />
           </a>
