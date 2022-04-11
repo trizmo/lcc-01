@@ -7,6 +7,13 @@ import trailer from './assets/videos/lcc-main-teaser.mp4'
 
 import LccLogo from './assets/images/lcc-logo-1.png'
 
+import ReactGA from 'react-ga'
+
+ReactGA.initialize('G-7EP1LQWD59', {
+  debug: true,
+  titleCase: false,
+});
+
 
 function App() {
   return (
