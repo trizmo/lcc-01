@@ -1,6 +1,6 @@
 import './App.css';
 import ReactPlayer from 'react-player'
-import { FaFacebookF, FaTwitter, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa"
+import { FaFacebookF, FaTwitter, FaInstagram, FaTiktok, FaYoutube, FaKickstarterK } from "react-icons/fa"
 
 import trailer1 from './assets/videos/jc-gangster.mp4'
 import trailer from './assets/videos/lcc-main-teaser.mp4'
@@ -33,6 +33,10 @@ function App() {
         <h3>He will be risen</h3>
         <h3>Easter 2022</h3>
 
+        <a href="https://www.kickstarter.com/projects/lacosacristo/la-cosa-cristo" target="_blank">
+          <p>Help fund our Kickstarter!</p>
+        </a>
+
       </div>
 
       <div>
@@ -47,11 +51,17 @@ function App() {
           <a target="_blank" href="https://www.instagram.com/ighosproductions/" >
             <FaInstagram />
           </a>
+
           <a target="_blank" href="https://www.tiktok.com/@jchrist08?lang=en" >
             <FaTiktok />
           </a>
+
           <a target="_blank" href="https://www.youtube.com/channel/UC6Xkhx4VsoZIHkz52YCmNVg" >
             <FaYoutube />
+          </a>
+
+          <a target="_blank" href="https://www.kickstarter.com/projects/lacosacristo/la-cosa-cristo" >
+            <FaKickstarterK />
           </a>
 
         </div>
