@@ -9,13 +9,19 @@ import LccLogo from './assets/images/lcc-logo-1.png'
 
 import ReactGA from 'react-ga'
 
-ReactGA.initialize('G-7EP1LQWD59', {
-  debug: true,
-  titleCase: false,
-});
-
 
 function App() {
+
+
+  ReactGA.initialize('G-7EP1LQWD59', {
+    debug: true,
+    titleCase: false,
+  });
+
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
+
+
   return (
     <div className="App">
 
